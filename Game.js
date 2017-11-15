@@ -73,38 +73,7 @@ const canvas = document.getElementById('tic');
     }
   };	
   
-  /*const drawLines = function (strokeStyle) {
-  const lineStart = 4;
-  const lineLenght = canvas.width - 5;
-  tic.strokeStyle = strokeStyle;
-  tic.beginPath();
-  for (let y = 0; y <= 3;y++) {  
-  tic.moveTo(lineStart, y * canvas.width / 3);
-  tic.lineTo(lineLenght, y * canvas.width / 3);
-  }
-  for (let x = 0;x <= 3;x++) {
-  tic.moveTo(x * canvas.width / 3, lineStart);
-  tic.lineTo(x * canvas.width / 3, lineLenght);
-  }
-  tic.stroke();
-  }
-  /*
-  const drawX = function(x, y) {
-  tic.strokeStyle = "#f1be32";
-  tic.beginPath();
-  tic.moveTo(x + 50, y + 50);
-  tic.lineTo(x + canvas.width / 3 - 50, y + canvas.width / 3 - 50);
-  tic.moveTo(x + 50, y + canvas.width / 3 - 50);
-  tic.lineTo(x + canvas.width / 3 - 50, y + 50);
-  tic.stroke();
-  };
-  const drawO = function(x, y) {
-  //tic.lineWidth = 10;
-  tic.strokeStyle = "#01bBC2";
-  tic.beginPath();
-  tic.arc(x + (0.5 * canvas.width / 3),  y + (0.5 * canvas.width / 3), (canvas.width / 3 - 100) / 2, 0, 2 * Math.PI);
-  tic.stroke();
-  };*/
+  
   const drawLines = function(){
       tic.drawImage(backImage1, 0, 0,canvas.width,canvas.height);
   };
